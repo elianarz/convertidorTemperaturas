@@ -48,8 +48,9 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cql-gB-f6q">
                                                 <rect key="frame" x="0.0" y="52.5" width="352" height="52"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="celsiusTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -73,8 +74,9 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E5S-Gz-QCl">
+                                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E5S-Gz-QCl">
                                                 <rect key="frame" x="0.0" y="52" width="352" height="52"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="fahrenheitTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -101,7 +103,7 @@
                                                     <color key="baseForegroundColor" name="AccentColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIu-rN-iTY"/>
+                                                    <action selector="convertToFahrenheit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7cN-Aq-pj2"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -145,8 +147,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="celsiusTextField" destination="cql-gB-f6q" id="ynZ-bt-WK2"/>
-                        <outlet property="farehnheitTextField" destination="E5S-Gz-QCl" id="lsF-HM-ZTg"/>
+                        <outlet property="celsiusTextField" destination="cql-gB-f6q" id="ia2-ga-u8V"/>
+                        <outlet property="fahrenheitTextField" destination="E5S-Gz-QCl" id="K3Y-U0-M6y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
