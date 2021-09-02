@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19150" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19150" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lsi-wj-A6M">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19134"/>
@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5se-Rb-oye" userLabel="Main">
-                                <rect key="frame" x="31" y="105.5" width="352" height="695"/>
+                                <rect key="frame" x="31" y="142.5" width="352" height="616"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xJU-Hu-61N" userLabel="Row1">
-                                        <rect key="frame" x="0.0" y="0.0" width="352" height="104"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="352" height="92.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Convertidor de Temperatura" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hx-yy-LfI">
-                                                <rect key="frame" x="0.0" y="36.5" width="352" height="31"/>
+                                                <rect key="frame" x="0.0" y="32" width="352" height="28"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -38,16 +38,16 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03R-3Q-CHq" userLabel="Row2">
-                                        <rect key="frame" x="0.0" y="104" width="352" height="104.5"/>
+                                        <rect key="frame" x="0.0" y="92.5" width="352" height="92.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grados Celsius:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UiM-Yv-7Cq">
-                                                <rect key="frame" x="0.0" y="0.0" width="352" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="352" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cql-gB-f6q">
-                                                <rect key="frame" x="0.0" y="52.5" width="352" height="52"/>
+                                                <rect key="frame" x="0.0" y="46" width="352" height="46.5"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="celsiusTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -66,16 +66,16 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BCc-oy-4dv" userLabel="Row3">
-                                        <rect key="frame" x="0.0" y="208.5" width="352" height="104"/>
+                                        <rect key="frame" x="0.0" y="185" width="352" height="92"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grados Fahrenheit:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZh-Lt-kme" userLabel="Grados Fahrenheit">
-                                                <rect key="frame" x="0.0" y="0.0" width="352" height="52"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="352" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E5S-Gz-QCl">
-                                                <rect key="frame" x="0.0" y="52" width="352" height="52"/>
+                                                <rect key="frame" x="0.0" y="46" width="352" height="46"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="fahrenheitTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -94,22 +94,22 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W3d-bP-SAX" userLabel="Row4">
-                                        <rect key="frame" x="0.0" y="312.5" width="352" height="104.5"/>
+                                        <rect key="frame" x="0.0" y="277" width="352" height="92.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3O1-6J-xmq">
-                                                <rect key="frame" x="123" y="36.5" width="106" height="31.5"/>
+                                                <rect key="frame" x="88" y="32.5" width="176" height="28"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Convertir">
-                                                    <color key="baseForegroundColor" name="AccentColor"/>
+                                                    <color key="baseForegroundColor" systemColor="tintColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="convertToFahrenheit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7cN-Aq-pj2"/>
+                                                    <action selector="convertToFahrenheit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cnH-1f-9p5"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="3O1-6J-xmq" firstAttribute="width" secondItem="W3d-bP-SAX" secondAttribute="width" multiplier="0.3" id="R50-ta-Ajc"/>
+                                            <constraint firstItem="3O1-6J-xmq" firstAttribute="width" secondItem="W3d-bP-SAX" secondAttribute="width" multiplier="0.5" id="R50-ta-Ajc"/>
                                             <constraint firstItem="3O1-6J-xmq" firstAttribute="height" secondItem="W3d-bP-SAX" secondAttribute="height" multiplier="0.3" id="TKE-EM-NZy"/>
                                             <constraint firstItem="3O1-6J-xmq" firstAttribute="centerX" secondItem="W3d-bP-SAX" secondAttribute="centerX" id="Wt9-R3-Xjr"/>
                                             <constraint firstItem="3O1-6J-xmq" firstAttribute="centerY" secondItem="W3d-bP-SAX" secondAttribute="centerY" id="ijs-DQ-5BA"/>
@@ -146,6 +146,15 @@
                             <constraint firstItem="5se-Rb-oye" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zbp-Zf-oZb"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="far-oS-N5Y">
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="sP5-wg-H5v">
+                            <connections>
+                                <segue destination="Hmo-Ye-V3Z" kind="show" identifier="showHistory" id="ZnG-ay-sZc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="celsiusTextField" destination="cql-gB-f6q" id="ia2-ga-u8V"/>
                         <outlet property="fahrenheitTextField" destination="E5S-Gz-QCl" id="K3Y-U0-M6y"/>
@@ -153,15 +162,73 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23" y="53"/>
+            <point key="canvasLocation" x="741" y="53"/>
+        </scene>
+        <!--List View Controller-->
+        <scene sceneID="ccQ-6f-i4v">
+            <objects>
+                <viewController id="Hmo-Ye-V3Z" customClass="ListViewController" customModule="ConvertidorTemperatura" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mOD-No-TfB" customClass="List">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="211-0H-z5L">
+                                <rect key="frame" x="0.0" y="88" width="414" height="777"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="it3-KO-4H2">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="it3-KO-4H2" id="YN6-Mk-GDP">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Hmo-Ye-V3Z" id="urQ-0i-qyU"/>
+                                    <outlet property="delegate" destination="Hmo-Ye-V3Z" id="fzu-B3-VLx"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iQN-Lq-Fep"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lPZ-4q-uov" userLabel="ListViewController"/>
+                    <connections>
+                        <outlet property="tableView" destination="211-0H-z5L" id="fc6-Qp-LdE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ImF-i9-AS9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1473.913043478261" y="52.901785714285715"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mj0-Wc-Ds6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lsi-wj-A6M" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iw7-18-ONv">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TGL-Cy-6Av"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pNT-x8-G4y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="52.901785714285715"/>
         </scene>
     </scenes>
     <resources>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
